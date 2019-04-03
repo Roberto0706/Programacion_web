@@ -7,7 +7,7 @@ y = []
 
 while True:
     y.append(np.random.randn(1)) 
-    if len(y) <= 10:
+    if len(y) <= 20:
         plt.plot(y)
     else:
         plt.plot(y[-10:])
