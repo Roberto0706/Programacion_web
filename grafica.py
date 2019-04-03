@@ -5,5 +5,5 @@ datos = np.arange(0,360)
 datos = np.radians(datos)
 datos = np.cos(datos)
 
-plt.plot(datos,"b--")
+plt.plot(datos,"b---")
 plt.show()
